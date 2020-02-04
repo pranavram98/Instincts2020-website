@@ -1,0 +1,125 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  overflow-y: scroll;
+  -ms-overflow-style: scrollbar;
+}
+
+html,
+body {
+  height: 100% !important;
+  overflow: auto;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  background: #ffc929;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.rect_left {
+  background: url("./res/side_rect_left.svg");
+  position: absolute;
+  width: 128px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+}
+
+.rect_right {
+  background: url("./res/side_rect_right.svg");
+  position: absolute;
+  width: 128px;
+  height: 100vh;
+  left: 1312px;
+  top: 0px;
+}
+
+.logo {
+  height : 300px;
+  padding-top: 10px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.event_title {
+  position: relative;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  top: -12px;
+  color: #000000;
+}
+
+
+.center {
+  text-align: center;
+  position: relative;
+}
+
+.cen{
+
+  text-align: left ;
+  position: relative;
+  padding-left: 20vh ;
+
+}
+
+h2{
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  color: #000000;
+
+}
+
+p{
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #000000;
+
+}
+
+
+.back{
+
+  padding-left: 170px;
+  padding-top: 10px;
+  max-width: 50px;
+  height: 50px;
+  text-align: right;
+
+}
+
+img{
+  padding-top: 10px ;
+  display: block;
+  left : -20px;
+  position: relative ;
+}
+
+
